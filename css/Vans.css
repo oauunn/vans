@@ -346,9 +346,11 @@ body {
 .footer .inner .box .left .text ul li a {
     color: #fff;
 }
+
 .footer .inner .box .left .text ul li a:hover {
     text-decoration: underline;
 }
+
 .footer .inner .box .left .text ul li span {
     color: #fff;
 }
@@ -389,4 +391,310 @@ body {
 
 .footer .inner .box .right .notice li a:hover {
     text-decoration: underline;
+}
+
+
+/* 태블릿 (1024 이하) */
+@media (max-width: 1024px) {
+
+    /* 공통 */
+    .inner {
+        padding: 0 40px;
+    }
+
+    .header .inner .icon {
+        gap: 20px;
+    }
+
+    .header .inner .icon img {
+        width: 20px;
+    }
+
+    /* 네비게이션 */
+    .header-2 .inner {
+        gap: 40px;
+        padding: 20px;
+    }
+
+    .header-2 .inner .logo {
+        width: 100px;
+    }
+
+    .header-2 .inner .menu {
+        gap: 40px;
+        font-size: 18px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /* 메인 비주얼 */
+    .visual .inner {
+        height: 500px;
+    }
+
+    .visual .text {
+        gap: 20px;
+        margin: 40px 20px 100px;
+    }
+
+    .visual .text h1 {
+        font-size: 24px;
+    }
+
+    .visual .text p {
+        font-size: 18px;
+        margin-bottom: 16px;
+    }
+
+    .visual .text a {
+        font-size: 16px;
+    }
+
+    /* 메인 상품 영역 */
+    .main .inner {
+        gap: 100px;
+    }
+
+    .main .inner .list {
+        display: flex;
+        gap: 40px;
+        align-items: baseline;
+    }
+
+    .main .inner .item {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .main .inner .new h1,
+    .main .inner .recommend h1 {
+        font-size: 24px;
+    }
+
+    .main .inner .new .item .text h2 {
+        font-size: 16px;
+    }
+
+    .main .inner .new .item .text p,
+    .main .inner .recommend .item .text p {
+        font-size: 14px;
+    }
+
+    .main .inner .new .item .text span,
+    .main .inner .recommend .item .text span {
+        font-size: 16px;
+    }
+
+    /* 티셔츠 영역 */
+    .clothes .inner {
+        padding: 100px 20px;
+    }
+
+    .clothes .inner .list {
+        gap: 10px;
+    }
+
+    .clothes .inner .item {
+        width: 100%;
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    .clothes .inner .item .text {
+        width: 90%;
+    }
+
+    .clothes .inner .item .text h2 {
+        font-size: 16px;
+    }
+
+    .clothes .inner .item .text h3 {
+        font-size: 24px;
+    }
+
+    .clothes .inner .item .text p {
+        font-size: 14px;
+        margin-bottom: 40px;
+    }
+
+    .clothes .inner .item .text a {
+        font-size: 16px;
+        padding: 12px 20px;
+    }
+
+    /* 푸터 */
+    .footer .inner {
+        padding: 60px 20px;
+    }
+
+    .footer .inner .box {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .footer .inner .box .left .menu {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .footer .inner .box .right {
+        gap: 40px;
+    }
+
+    .footer .inner .logo {
+        width: 120px;
+    }
+}
+
+
+/* 모바일 (768px 이하) */
+@media (max-width: 768px) {
+
+    /* 공통 */
+    .inner {
+        padding: 0 20px;
+    }
+
+    /* 헤더 상단 제거 */
+    .header .inner {
+        display: none;
+    }
+
+    /* 네비게이션 */
+    .header-2 .inner {
+        flex-direction: column;
+        gap: 40px;
+        padding: 20px;
+    }
+
+    .header-2 .inner .logo {
+        width: 100px;
+    }
+
+    .header-2 .inner .menu {
+        gap: 20px;
+        font-size: 16px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /* 메인 비주얼 */
+    .visual .inner {
+        height: 300px;
+    }
+
+    .visual .text {
+        gap: 20px;
+        margin: 40px 20px 100px;
+    }
+
+    .visual .text h1 {
+        font-size: 24px;
+    }
+
+    .visual .text p {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .visual .text a {
+        font-size: 16px;
+        padding: 12px 20px;
+    }
+
+    /* 메인 상품 영역 */
+    .main .inner {
+        gap: 100px;
+    }
+
+    .main .inner .list {
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    }
+
+    .main .inner .item {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .main .inner .new h1,
+    .main .inner .recommend h1 {
+        font-size: 24px;
+    }
+
+    .main .inner .new .item .text h2 {
+        font-size: 16px;
+    }
+
+    .main .inner .new .item .text p,
+    .main .inner .recommend .item .text p {
+        font-size: 14px;
+    }
+
+    .main .inner .new .item .text span,
+    .main .inner .recommend .item .text span {
+        font-size: 16px;
+    }
+
+    /* 티셔츠 영역 */
+    .clothes .inner {
+        padding: 100px 20px;
+    }
+
+    .clothes .inner .list {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .clothes .inner .item {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .clothes .inner .item .text {
+        width: 90%;
+    }
+
+    .clothes .inner .item .text h2 {
+        font-size: 16px;
+    }
+
+    .clothes .inner .item .text h3 {
+        font-size: 24px;
+    }
+
+    .clothes .inner .item .text p {
+        font-size: 14px;
+        margin-bottom: 40px;
+    }
+
+    .clothes .inner .item .text a {
+        font-size: 16px;
+        padding: 12px 20px;
+    }
+
+    /* 푸터 */
+    .footer .inner {
+        padding: 60px 20px;
+    }
+
+    .footer .inner .box {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .footer .inner .box .left .menu {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .footer .inner .box .right {
+        gap: 40px;
+    }
+
+    .footer .inner .logo {
+        width: 120px;
+    }
 }
